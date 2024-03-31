@@ -5,13 +5,15 @@
 }
 
 .Mentores-cont {
-    background: rgba(73, 55, 177, 0.267);
+    background: linear-gradient(0.25turn, #3A3A72, #2B2C59, #202147, #25214D, #3D2D67  );
     width: 65% !important;
+    height: 200px;
     display: flex !important;
     color: white;
     margin: auto;
     border-radius: 40px;
-   padding: 20px 30px 20px 30px ;
+    padding: 20px 30px 20px 30px ;
+    cursor: pointer;
 
     
 }
@@ -24,5 +26,72 @@
 }
 
 .mentores-image{
-    width: 100px;
+    width: 150px;
+    margin: 15px;
 }
+
+.textos h2 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.textos h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.textos p{
+    font-size: 20px;
+}
+
+@media (width <= 576px){
+    .Mentores-cont{
+        display: inline-block !important;
+        width: 75% !important ;
+        margin-left: 20px;
+        height: 600px;        
+    }
+
+    .mentores-image{
+       margin-left: 70px;
+    }
+
+    .textos {
+        text-align: center;
+    }
+
+    .textos h4 {
+        font-size: 20px;
+    }
+    .textos p {
+        font-size: 19px;
+    }
+
+}
+ @media (width >= 768px){
+    .Mentores-cont{
+        height: 300px;
+        width: 85% !important;
+       
+    }
+} 
+@media (width >= 992px){
+    .Mentores-cont{
+        height: 330px;
+        width: 85% ;
+    }
+
+    .mentores-image{
+      width: 180px;
+     }
+
+    .textos p {
+        font-size: 21.5px;
+    }
+
+    .textos h4{
+        font-size: 17px;
+    }
+}
+ 
