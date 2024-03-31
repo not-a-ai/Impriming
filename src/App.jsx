@@ -1,5 +1,6 @@
 import './App.css'
-import Mentores from './Components/Mentores'
+import Footer from './Components/Footer/Footer'
+// import Mentores from './Components/Mentores'
 import Forms from './Components/Form/Form'
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
 
   return (
     <>
-      <Mentores/>
+      {/* <Mentores/> */}
       <Forms/>
+      <Footer/>
     </>
   )
 }

@@ -8,16 +8,15 @@
     align-items: center;
     align-content: center;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 
 .input {
   background-color: rgba(238,132,30, 0.3);
-  border-radius: 2px;
+  border-radius: 4px;
   border: 1px solid #fff;
-  width: 50vw;
-  padding: 4px;
+  width: 100%;
   height: 32px;
   margin: 8px;
 }
@@ -25,7 +24,7 @@
 .input::placeholder{
   font-weight: lighter;
   color: #fff;
-  padding: 4px;
+  padding: 8px;
 }
 
 h1 {
@@ -33,36 +32,77 @@ h1 {
   font-size: x-large;
 }
 
-p {
+h3 {
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 16px;
+  font-weight: lighter;
+}
+
+p {
+    margin-top: 4px;
+    font-weight: bold;
 }
 
 button {
   background-color: #EE841E;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 8px;
   border: none;
+  cursor: pointer;
+  animation: pular 1s ease infinite alternate;
+}
+
+@keyframes pular {
+  0% { transform: scale(1); } 
+  100% { transform: scale(1.1); } 
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#telefone {
+  width: 45%;
+}
+#perfil {
+  width: 40%;
+}
+
+#div-form {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
 }
 
 .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 16px;
 }
 
 #icons {
     display: flex;
     flex-direction: row;
-    width: 50vw;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 32px;
     align-items: center;
+    
 }
 
 #icons img {
- width: 2.5rem;
+
+ height: 2.5rem;
 }
 
 #perfil #telefone {
@@ -70,7 +110,10 @@ button {
 }
 
 #mensagem {
-  height: 64px;
+  width: 100%;
+  height: 100%;
+  resize: none; /* Impede que o usuário redimensione o textarea */
+  box-sizing: border-box;
 }
 
 
