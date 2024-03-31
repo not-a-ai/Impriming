@@ -1,13 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-import Mentores from './Pages/Mentores'
+import Mentores from './Components/Mentores'
+import Forms from './Components/Form/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <Mentores/>
+      <Forms/>
     </>
   )
 }
