@@ -21,12 +21,12 @@ const Mentores = () => {
         
     <Slider {...settings}>
           {data.map((d) => (
-        <div key={d.name} className=" Mentores-cont h-[450px] rounded-xl" >
+        <div key={d.name} className=" Mentores-cont " >
           <div className='h-56 flex justify-center items-center rounded-t-xl'>
             <img src={d.img} alt="" className=" mentores-image rounded-full"/>
           </div>
 
-          <div className="flex items-center justify-center gap-4 p-4">
+          <div className=" textos flex items-center justify-center gap-4 p-4">
             <h2 className="text-xl font-semibold">{d.nome}</h2>
             <h4 className="text-xl font-semibold">{d.cargo}</h4>
             <p className="text-center">{d.sobre}</p>
@@ -49,13 +49,13 @@ const data = [
         img: "Jonata.svg",
         nome: "Jônatas Rodrigues",
         cargo: "Founder e CEO",
-        sobre:"Especialista em vendas, atendimento e sucesso do cliente com mais de 18 anos de experiência de mercado, nosso CEO é um apaixonado por conhecimento em terapias integrativas e psicodélicas e entusiasta da Psicologia e Neuriciênciais  do comportamento humano"
+        sobre:"Especialista em vendas, atendimento e sucesso do cliente com mais de 18 anos de experiência de mercado, nosso CEO é um apaixonado por conhecimento em terapias integrativas e psicodélicas e entusiasta da Psicologia e Neuriciênciais  do comportamento humano."
     },
     {
         img: "Bernando.svg",
         nome: "Bernando Souza",
         cargo: "Mentor e CBO",
-        sobre:"Bernardo Souza é pastor e psicoterapeuta especializado em Psicoterapia Assistid Psicodélicos pela Harvard Medical School. Com pós-graduações em Neuropsicologia, P Clínica e Gestão de Projetos, ele atende centenas de pacientes no Mundo, focando em compulsões através de protocolos avançados de microdosagem pela PSICODELIX .C experiência de mais de 20 anos e seu trabalho pioneiro já resultou na certificação de 3.000 médicos através de colaborações com instituições de renome como Harvard, M Hopkins. Bernardo é um pilar de ética e inovação, dedicado ao avanço da ciência e à v dos conhecimentos tradicionais e ancestrais"
+        sobre:"Bernardo Souza é pastor e psicoterapeuta, especializado em Psicoterapia Assistida por Psicodélicos pela Harvard Medical School. Com mais de 20 anos de experiência, ele atende centenas de pacientes globalmente, focando em compulsões através de protocolos avançados de microdosagem pela PSICODELIX. Seu trabalho pioneiro resultou na certificação de 3.000 médicos em colaborações com instituições renomadas como Harvard e Johns Hopkins."
     },
     {
         img: "Andre.svg",
