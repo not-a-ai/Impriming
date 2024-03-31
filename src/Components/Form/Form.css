@@ -1,0 +1,76 @@
+.form {
+    background-image: url(/public/forms/background.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+
+.input {
+  background-color: rgba(238,132,30, 0.3);
+  border-radius: 2px;
+  border: 1px solid #fff;
+  width: 50vw;
+  padding: 4px;
+  height: 32px;
+  margin: 8px;
+}
+
+.input::placeholder{
+  font-weight: lighter;
+  color: #fff;
+  padding: 4px;
+}
+
+h1 {
+  color: #FA90F5;
+  font-size: x-large;
+}
+
+p {
+  text-align: center;
+  padding: 1rem;
+}
+
+button {
+  background-color: #EE841E;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icons img {
+ width: 2.5rem;
+}
+
+#perfil #telefone {
+  width: 24.3vw;
+}
+
+#mensagem {
+  height: 64px;
+}
+
+
