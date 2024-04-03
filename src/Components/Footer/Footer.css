@@ -11,3 +11,16 @@ section {
   margin-left: 1rem;
   
 }
+
+
+@media (max-width: 640px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  #social {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+}

@@ -117,3 +117,8 @@ form {
 }
 
 
+@media (max-width: 640px) {
+  #div-form {
+    flex-direction: column;
+  }
+}
