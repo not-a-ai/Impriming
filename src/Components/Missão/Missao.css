@@ -1,0 +1,42 @@
+.container {
+  background-image: url(/public/missão/backgroundmissao.svg);
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.missao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 4rem 0 6rem 0;
+}
+
+.imagens {
+  background-color: #7714b9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 11.5rem;
+  height: 3rem;
+  padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .missao {
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
